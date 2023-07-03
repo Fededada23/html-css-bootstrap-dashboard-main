@@ -1,0 +1,65 @@
+@media screen and (min-width: 768px) {
+    /* main-content */
+    #main-content .table-classes th:first-child {
+        width: 40%;
+    }
+
+    #main-content .table-classes th:nth-child(3), #main-content .table-classes th:nth-child(2), #main-content .table-classes td:nth-child(3), #main-content .table-classes td:nth-child(2) {
+        display: table-cell;
+    }
+
+    #main-content .table-classes img {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* side-bar */
+    aside {
+        width: 150px;
+    }
+
+    aside .fa-house, aside .fa-signal {
+        margin-right: 15px;
+    }
+    
+    aside .fa-chart-simple, aside .fa-gear{
+        margin-right: 20px;
+    }
+
+    /* corpo della pagina */
+    /* top-bar */
+    /* dropdown */
+    #top-bar .mydropdown-content {
+        position: static;
+        padding: 0;
+        border-radius: 0;
+        background-color: transparent;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-shadow: none;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #top-bar .mydropdown-content .topbar-link {
+        display: inline-block;
+        margin-left: 5px;
+        border-radius: 20px;
+    }
+    /* fine dropdown */
+
+    /* off-canvas */
+    #top-bar .offcanvas {
+        --bs-offcanvas-width:800px
+    }
+    /* fine off-canvas */
+}
+
+@media screen and (min-width: 1200px) {
+     /* main-content */
+     #main-content .table-classes th:first-child {
+        width: 50%;
+    }
+}
+
